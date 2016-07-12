@@ -91,7 +91,7 @@ do {
            echo "<td>".$row["nombre2"]."</td> \n";   
            echo "<td>".$row["costo"]."</td> \n";
             //echo "</tr> \n"; 
-      } 
+      } while ($row = mysql_fetch_array($result)); 
             echo "</table> \n"; 
 } else { 
 echo "¡ No se ha encontrado ningún registro !"; 
