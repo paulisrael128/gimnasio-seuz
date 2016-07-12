@@ -64,10 +64,9 @@ function mueveReloj(){
 				<div id="menu">
 					<ul>
 						<li><a href="#" class="active">Inicio</a></li>
-						<li><a href="#">Información</a></li>
+						<li><a href="informacion.php">Información</a></li>
 						<li><a href="#">Disciplinas</a></li>
 						<li><a href="inicio.php">Administracion</a></li>
-						
 					</ul>
 					<div class="clear"></div>
 				</div>
